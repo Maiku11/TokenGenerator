@@ -18,7 +18,7 @@ function App() {
     };
 
     return (
-        <div>
+        <div className="main-container">
             <div className="container">
                 <h1>Token Generator</h1>
                 <TokenForm

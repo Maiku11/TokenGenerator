@@ -42,10 +42,10 @@ function TokenForm({ onGenerateTokens, onClearTokens }) {
                     });
                 }
             }
-            console.log(rowTokens);
+            // console.log(rowTokens);
             newBlueTokens.push(rowTokens);
         }
-        console.log(newBlueTokens);
+        // console.log(newBlueTokens);
 
         // Generate Red Tokens
         const newRedTokens = [];
